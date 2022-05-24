@@ -10,7 +10,7 @@ def task_name(numbers_type, total_number_of_units, total_number_of_completed_uni
     # Days
     now_day = datetime.datetime.today()
     start_day = datetime.datetime(2022, 3, 1)
-    end_day = datetime.datetime(2022, 4, 10)
+    end_day = datetime.datetime(2022, 6, 10)
     number_of_days_left = (end_day - now_day).days + 1
 
     # 1 = المستقلة = individual
